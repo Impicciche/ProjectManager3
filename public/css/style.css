@@ -1,0 +1,33 @@
+body{
+    font-family: Open-Sans;
+}
+.sidebarProjects{
+    position:fixed;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    left:0;
+    background-color: #000F08;
+    color:#FFF;
+}
+main.loginMain{
+    padding-left: 0;
+    height: 100vh;
+    padding: 0 15px;
+    position: relative;
+}
+main{
+    padding-left: 300px;
+}
+header ul{
+    list-style: none;
+}
+.loginFormContainer{
+    max-width:500px;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}

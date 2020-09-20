@@ -1,0 +1,15 @@
+<section class="d-flex sidebarProjects">
+    <div class="col-md-12">
+        <h3>Projects</h3>
+        <div>
+            <input class="form-control" id="search" value="" placeholder="Search Project" />
+        </div>
+        {% for project in projects %}
+            <div class="project-item">
+                <div class="project-item-title">{{ project.title }}</div>
+                <div class="project-item-code">{{ project.code }}</div>
+                <div class="project-item-status"></div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
